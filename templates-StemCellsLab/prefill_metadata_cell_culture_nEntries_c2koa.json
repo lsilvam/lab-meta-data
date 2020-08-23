@@ -1,0 +1,52 @@
+{
+    "entry01":[
+        {
+            "ID" : ["c2koa_p_"],
+            "ID_mother" : [""],
+            "label" : ["c2koa_p_"],
+            "date" : [""],
+            "cell_type" :  ["mESC"],
+            "cell_line" : ["C2KO[A]"],
+            "passage" : [""],
+            "culture_health" : [""],
+            "confluency": [""],
+            "lab_stage" : [""],
+            "culture_medium" : ["GMEM_sup"],
+            "extra_supplements" : ["LIF-peprotech"],
+            "dissociation_agent" : ["accutase"],
+            "cell_count" : [""],
+            "viability" : [""],
+            "treatment" : ["none"],
+            "links_to_experiment" : [""],
+            "mycoplasma_free" : ["unkown"],
+            "notes" : [""],
+            "user" : ["L_Mendes-Silva"],
+            "comments" : [""],
+            "picture_file_name": [""]
+        }],
+    "entry0n":[
+        {
+            "ID" : ["c2koa_p_"],
+            "ID_mother" : [""],
+            "label" : ["c2koa_p_"],
+            "date" : [""],
+            "cell_type" :  ["mESC"],
+            "cell_line" : ["C2KO[A]"],
+            "passage" : [""],
+            "culture_health" : [""],
+            "confluency": [""],
+            "lab_stage" : [""],
+            "culture_medium" : ["GMEM_sup"],
+            "extra_supplements" : ["LIF-peprotech"],
+            "dissociation_agent" : ["accutase"],
+            "cell_count" : [""],
+            "viability" : [""],
+            "treatment" : ["none"],
+            "links_to_experiment" : [""],
+            "mycoplasma_free" : ["unkown"],
+            "notes" : [""],
+            "user" : ["L_Mendes-Silva"],
+            "comments" : [""],
+            "picture_file_name": [""]
+        }]
+}

@@ -1,0 +1,52 @@
+{
+    "entry01":[
+        {
+            "ID" : [""],
+            "ID_mother" : [""],
+            "label" : [""],
+            "date" : [""],
+            "cell_type" :  [""],
+            "cell_line" : [""],
+            "passage" : [""],
+            "culture_health" : [""],
+            "confluency": [""],
+            "lab_stage" : [""],
+            "culture_medium" : [""],
+            "extra_supplements" : [""],
+            "dissociation_agent" : [""],
+            "cell_count" : [""],
+            "viability" : [""],
+            "treatment" : [""],
+            "links_to_experiment" : [""],
+            "mycoplasma_free" : [""],
+            "notes" : [""],
+            "user" : [""],
+            "comments" : [""],
+            "picture_file_name": [""]
+        }],
+    "entry0n":[
+        {
+            "ID" : [""],
+            "ID_mother" : [""],
+            "label" : [""],
+            "date" : [""],
+            "cell_type" :  [""],
+            "cell_line" : [""],
+            "passage" : [""],
+            "culture_health" : [""],
+            "confluency": [""],
+            "lab_stage" : [""],
+            "culture_medium" : [""],
+            "extra_supplements" : [""],
+            "dissociation_agent" : [""],
+            "cell_count" : [""],
+            "viability" : [""],
+            "treatment" : [""],
+            "links_to_experiment" : [""],
+            "mycoplasma_free" : [""],
+            "notes" : [""],
+            "user" : [""],
+            "comments" : [""],
+            "picture_file_name": [""]
+        }]
+}

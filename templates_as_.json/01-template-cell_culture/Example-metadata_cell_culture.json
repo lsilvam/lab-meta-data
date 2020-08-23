@@ -1,0 +1,52 @@
+{
+    "entry01":[
+        {
+            "ID" : ["20200803_cells_p02_t25"],
+            "ID_mother" : ["20200803_cells_p02_t25"],
+            "label" : ["cells_p02"],
+            "date" : ["20200803"],
+            "cell_type" :  ["cells"],
+            "cell_line" : ["awesome_cells"],
+            "passage" : ["02"],
+            "culture_health" : ["good"],
+            "confluency": ["NA"],
+            "lab_stage" : ["thaw"],
+            "culture_medium" : ["GMEM_sup"],
+            "extra_supplements": ["LIF"],
+            "dissociation_agent" : ["none"],
+            "cell_count": ["1"],
+            "viability": ["NA"],
+            "treatment" : ["none"],
+            "links_to_experiment" : ["none"],
+            "mycoplasma_free" : ["unknown"],
+            "notes" : ["problems with freezing"],
+            "user" : ["lmesilva"],
+            "comments" : ["separated phases in the vial"],
+            "picture_file_name": ["none"]
+        }],
+    "entry0n":[
+        {
+            "ID" : ["20200803_cells_p02_t25"],
+            "ID_mother" : ["20200803_cells_p02_t25"],
+            "label" : ["cells_p02"],
+            "date" : ["20200804"],
+            "cell_type" :  ["cells"],
+            "cell_line" : ["awesome_cells"],
+            "passage" : ["02"],
+            "culture_health" : ["good"],
+            "confluency": ["NA"],
+            "lab_stage" : ["culture"],
+            "culture_medium" : ["GMEM_sup"],
+            "extra_supplements": ["LIF"],
+            "dissociation_agent" : ["none"],
+            "cell_count": ["NA"],
+            "viability": ["NA"],
+            "treatment" : ["none"],
+            "links_to_experiment" : ["none"],
+            "mycoplasma_free" : ["negative"],
+            "notes" : ["none"],
+            "user" : ["lmesilva"],
+            "comments" : ["none"],
+            "picture_file_name": ["20200804_0001.tiff"]
+        }]
+}
