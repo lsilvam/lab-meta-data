@@ -66,7 +66,7 @@ Example of possible inputs
     ## mycoplasma_free -> # 'yes' 'no' 'unknown'
     ## notes -> 'contamination' 'spontaneous_differentiation' 'other_issue_see_notebook' 'faulty_incubator' 'accident' 'problems_with_freezing'  'sent_to_collaborator', 'sent_to_cell_bank' 'none'               
     ## user -> name of the person that managed the cells
-    ## comments -> free writing  
+    ## comments -> free writing , 'none'
     ## picture_filepicture_file_name_name -> if relevant add the name of a file'file_name.jpeg' 'none'
 ```
 
