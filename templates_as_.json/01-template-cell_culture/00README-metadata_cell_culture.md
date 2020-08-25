@@ -39,36 +39,31 @@ V1.0 -- the examples shown here come from routine tasks in the **Stem Cell Biolo
 
 ---------
 
-Example of possible inputs
+## Example of possible inputs on how to insert data
 
-```r
-## 
+ID -> id_cell_line_passage#_user_vial.no. `????_P##_???##` e.g. `20202020_cells_p01_t25`
+ID_mother -> as for ID
+label -> should be the same or short starment of `ID`
+date -> format YYYYMMDD e.g. 20200718
+cell_type -> `mESC` `iPSC` `...`
+cell_line -> `c2koa` `e14t` `la11` `ad2` `...`
+passage -> a number ## e.g. `01`; if unknown then use NA
+culture_health -> `great` `good` `ok` `bad` `unknown`
+confluency -> given as % -- a number in the format ##-### without % e.g. `60`
+lab_stage -> `freeze` `thaw` `culture` `discarded` `experiment` `...`
+culture_medium -> `DMEM` `GMEM` `DMEM_sup` `GMEM_sup` `iPSC` `mTSER` `E8` `...`
+extra_supplements -> `2i` `LIF-esgro` `LIF-peptrotech` `LIF-peptrotech` `none` `...`
+dissociation_agent -> `trypsin` `accutase` `tryple` `dispase` `mechanic` `none` `...`
+cell_count -> cells counted after dissociation or seed from frozen vial, expressed as .10^6 -- `NA` when unkown
+viability -> given as % -- a number in the format ##-### without % e.g. `90`
+treatment -> `puromycin` `none` `...`
+links_to_experiment -> `experiment_name/ID` `none`
+mycoplasma_free -> # `yes` `no` `unknown`
+notes -> `contamination` `spontaneous_differentiation` `other_issue_see_notebook` `faulty_incubator` `accident` `problems_with_freezing`  `sent_to_collaborator`, `sent_to_cell_bank` `none`
+user -> name of the person that managed the cells
+comments -> free writing , `none`
+picture_filepicture_file_name_name -> if relevant add the name of a file`file_name.jpeg` `none`
 
-    ## how to entry data; 
-    ## '...' means that field can be expanded with other terms:
-    ## ID -> id_cell_line_passage#_user_vial.no. `????_P##_???##` e.g. '20202020_cells_p01_t25'
-    ## ID_mother -> as for ID
-    ## label -> should be the same or short starment of `ID`
-    ## date -> format YYYYMMDD e.g. 20200718
-    ## cell_type -> 'mESC' 'iPSC' '...'
-    ## cell_line -> 'c2koa' 'e14t' 'la11' 'ad2' '...'
-    ## passage -> a number ## e.g. '01'; if unknown then use NA
-    ## culture_health -> 'great' 'good' 'ok' 'bad' 'unknown'
-    ## confluency -> given as % -- a number in the format ##-### without % e.g. '60'
-    ## lab_stage -> 'freeze' 'thaw' 'culture' 'discarded' 'experiment' '...'
-    ## culture_medium -> 'DMEM' 'GMEM' 'DMEM_sup' 'GMEM_sup' 'iPSC' 'mTSER' 'E8' '...'
-    ## extra_supplements -> '2i' 'LIF-esgro' 'LIF-peptrotech' 'none' '...'
-    ## dissociation_agent -> 'trypsin' 'accutase' 'tryple' 'dispase' 'mechanic' 'none' '...'
-    ## cell_count -> cells counted after dissociation or seed from frozen vial, expressed as .10^6 -- 'NA' when unkown
-    ## viability -> given as % -- a number in the format ##-### without % e.g. '90'
-    ## treatment -> 'puromycin' 'none' '...'
-    ## links_to_experiment -> 'experiment_name/ID' 'none'
-    ## mycoplasma_free -> # 'yes' 'no' 'unknown'
-    ## notes -> 'contamination' 'spontaneous_differentiation' 'other_issue_see_notebook' 'faulty_incubator' 'accident' 'problems_with_freezing'  'sent_to_collaborator', 'sent_to_cell_bank' 'none'               
-    ## user -> name of the person that managed the cells
-    ## comments -> free writing , 'none'
-    ## picture_filepicture_file_name_name -> if relevant add the name of a file'file_name.jpeg' 'none'
-```
 
 ## cell culture structure for n-entries for the same flask/culture  
 e.g. when you want to prepare for an experiment (for example, after a passage the culture might need an antibiotic selection)
