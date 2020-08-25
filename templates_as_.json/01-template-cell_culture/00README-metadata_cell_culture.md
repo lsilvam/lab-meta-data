@@ -42,26 +42,47 @@ V1.0 -- the examples shown here come from routine tasks in the **Stem Cell Biolo
 ## Example of possible inputs on how to insert data
 
 ID -> id_cell_line_passage#_user_vial.no. `????_P##_???##` e.g. `20202020_cells_p01_t25`
+
 ID_mother -> as for ID
+
 label -> should be the same or short starment of `ID`
+
 date -> format YYYYMMDD e.g. 20200718
+
 cell_type -> `mESC` `iPSC` `...`
+
 cell_line -> `c2koa` `e14t` `la11` `ad2` `...`
+
 passage -> a number ## e.g. `01`; if unknown then use NA
+
 culture_health -> `great` `good` `ok` `bad` `unknown`
+
 confluency -> given as % -- a number in the format ##-### without % e.g. `60`
+
 lab_stage -> `freeze` `thaw` `culture` `discarded` `experiment` `...`
+
 culture_medium -> `DMEM` `GMEM` `DMEM_sup` `GMEM_sup` `iPSC` `mTSER` `E8` `...`
+
 extra_supplements -> `2i` `LIF-esgro` `LIF-peptrotech` `LIF-peptrotech` `none` `...`
+
 dissociation_agent -> `trypsin` `accutase` `tryple` `dispase` `mechanic` `none` `...`
+
 cell_count -> cells counted after dissociation or seed from frozen vial, expressed as .10^6 -- `NA` when unkown
+
 viability -> given as % -- a number in the format ##-### without % e.g. `90`
+
 treatment -> `puromycin` `none` `...`
+
 links_to_experiment -> `experiment_name/ID` `none`
+
 mycoplasma_free -> # `yes` `no` `unknown`
+
 notes -> `contamination` `spontaneous_differentiation` `other_issue_see_notebook` `faulty_incubator` `accident` `problems_with_freezing`  `sent_to_collaborator`, `sent_to_cell_bank` `none`
+
 user -> name of the person that managed the cells
+
 comments -> free writing , `none`
+
 picture_filepicture_file_name_name -> if relevant add the name of a file`file_name.jpeg` `none`
 
 
@@ -130,24 +151,24 @@ e.g. when a culture is only being maintained with few to none intermediate inter
 {
     "entry01":[
     {
-        "ID" : ["????_P##_???##"],
-        "ID_mother" : ["????_P##_???##"],
-        "label" : ["label in the flask/tube"],
-        "date" : ["YYYYMMDD"],
-        "cell_type" :  ["mESC","iPSC", "..."],
-        "cell_line": ["c2koa", "e14t", "la11", "ad2", "..."],
-        "passage" : ["##", "NA"],
-        "culture_health" : ["great","good","ok", "bad", "..."],
-        "lab_stage" : ["freeze", "thaw", "culture", "discarded", "experiment", "..."],
-        "culture_medium" : ["DMEM", "GMEM", "DMEM_sup", "GMEM_sup","iPSC","mTSER","E8", "..."],
-        "extra_supplements": ["2i", "LIF-esgro", "LIF-peptrotech","none","..."],
-        "dissociation_agent" : ["trypsin", "accutase", "tryple", "dispase", "mechanic","none","..."],
-        "cell_count" : ["1", "NA"],
-        "viability" : ["90", "NA"],
-        "treatment" : ["puromycin", "none", "..."],
-        "links_to_experiment" : ["experiment_name", "NA","..."],
-        "mycoplasma_free" : ["yes", "no", "unknown"],
-        "notes" : ["contamination", "spontaneous differentiation", "other issue, see notebook", "faulty incubator", "accident", "none", "sent to collaborator", "sent to cell bank","problems with freezing"],
+        "ID" : ["20200103_e14t_p02"],
+        "ID_mother" : ["20200101_e14t_p01"],
+        "label" : ["e14t_p02_t25"],
+        "date" : ["20200103"],
+        "cell_type" :  ["mESC"],
+        "cell_line": ["e14t"],
+        "passage" : ["02"],
+        "culture_health" : ["good"],
+        "lab_stage" : ["culture"],
+        "culture_medium" : ["DMEM_sup"],
+        "extra_supplements": ["2i"],
+        "dissociation_agent" : ["trypsin"],
+        "cell_count" : ["1"],
+        "viability" : ["90"],
+        "treatment" : ["puromycin"],
+        "links_to_experiment" : ["experiment_name"],
+        "mycoplasma_free" : ["unknown"],
+        "notes" : ["none"],
         "user" : ["glados"],
         "comments" : ["the cake is a lie"],
         "picture_file_name": ["file_name.jpeg"]
