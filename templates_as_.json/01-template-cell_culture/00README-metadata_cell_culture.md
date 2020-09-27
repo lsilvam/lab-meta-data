@@ -3,8 +3,8 @@
  ORC-ID: https://orcid.org/0000-0002-5989-637X
  GitHub: http://github.com/lsilvam
 version: 1.0
-created: 2020718
-last edit: 20200823
+created: 20200718
+last edit: 20200927
 
 title: "structure of a `.json` file to log cell culture actions"
 description: The present file strctures were designed to log actions done in cell culture, keep in mind 
