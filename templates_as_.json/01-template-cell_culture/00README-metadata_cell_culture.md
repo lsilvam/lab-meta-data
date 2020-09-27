@@ -8,8 +8,8 @@ last edit: 20200823
 
 title: "structure of a `.json` file to log cell culture actions"
 description: The present file strctures were designed to log actions done in cell culture, keep in mind 
-that every entry refers to what was done to a given culture. Hope that with this it would be easier to track porblems, 
-or good results. Each time there is a passage it is advised to create a new file for the new culture, instead of adding n-entries; this way the files are separated and the chances of losign all entries are reduced in case of a mistake or bug -- and also, for the use of Obsidian/RoamResearch each entry being a new note makes it possible to backlink with `[[]]`.
+that every entry refers to what was done to a given culture. Hope that with this it would be easier to track problems, 
+or good results. Each time there is a passage it is advised to create a new file for the new culture, instead of adding n-entries; this way the files are separated and the chances of losign all entries are reduced in case of a mistake or bug happens -- and also, for the use of Obsidian/RoamResearch each entry being a new note makes it possible to backlink with `[[]]`.
 
 ## guide lines
 #### IDs
@@ -19,10 +19,12 @@ When a field has no data to add, or it is unknown use "NA" e.g passage:`["NA"]`,
 Never leave a data field without entry -- if the date of the original vials is not known use either the **last recorded date** or the **date of thawing**
 #### NA and nones
 Don't leave fields in black, either use the appropriate notation `NA` or `none`; `NA` for fields that are numbers or open; `none` for close fields with restrictions.
-    An `links_to_experiment` is `NA`, because the name of the experiment is not fixed
+    An `links_to_experiment` is `none`, because the name of the experiment is not fixed
     A `treatment` in `none`, because the number of posibilities are fixed but scalable
+    A `passage` is `NA`, because the input must be a number
 #### lab stage
 In `lab_stage` the entry `culture` means that either the medium was changed or that the cells are comming from a passage (which will be distinguishable from medium change because the `dissociation agent` will be filled, as well as the ID will have to change to consider the passage number increase).
+When recording a `passage` the fields of `confluency`, `cell_count` and `viability` refer to the mother culture that is  `ID_mother`
 #### special cases
 If you want to consider culture splits, a new file for each culture needs to be created if they are going to have different ends. For eample, a passage from a T25 to three P60 would be: (1) "..._P60abc" if they will be pooled for the same experiment, but they should have their unnique `ID` if they are going to be use differently; thus, three new entries with their `ID` ending in "..._P60a" + "..._P60b" + "..._P60c", all the the same mother `ID`
 
@@ -61,7 +63,7 @@ confluency -> given as % -- a number in the format ##-### without % e.g. `60`
 
 lab_stage -> `freeze` `thaw` `culture` `discarded` `experiment` `...`
 
-culture_medium -> `DMEM` `GMEM` `DMEM_sup` `GMEM_sup` `iPSC` `mTSER` `E8` `...`
+culture_medium -> `DMEM` `GMEM` `DMEM_sup` `GMEM_sup` `iPSC` `mTSER` `E8` `freezing-mix` `...`
 
 extra_supplements -> `2i` `LIF-esgro` `LIF-peptrotech` `LIF-peptrotech` `none` `...`
 
@@ -79,11 +81,11 @@ mycoplasma_free -> # `yes` `no` `unknown`
 
 notes -> `contamination` `spontaneous_differentiation` `other_issue_see_notebook` `faulty_incubator` `accident` `problems_with_freezing`  `sent_to_collaborator`, `sent_to_cell_bank` `none`
 
-user -> name of the person that managed the cells
+user -> initials of the name of the person that manipulated the cells
 
 comments -> free writing , `none`
 
-picture_filepicture_file_name_name -> if relevant add the name of a file`file_name.jpeg` `none`
+picture_filepicture_file_name_name -> if relevant add the name of a file `file_name.jpeg` `none`
 
 
 ## cell culture structure for n-entries for the same flask/culture  
