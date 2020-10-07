@@ -7,8 +7,9 @@ created: 20200718
 last edit: 20201007
 ---
 
-title: "structure of a `.json` file to log cell culture actions"
-description: The present file strctures were designed to log actions done in cell culture, keep in mind 
+**title**: "structure of a `.json` file to log cell culture actions" 
+
+**description**: The present file strctures were designed to log actions done in cell culture, keep in mind 
 that every entry refers to what was done to a given culture. Hope that with this it would be easier to track problems, 
 or good results. Each time there is a passage it is advised to create a new file for the new culture, instead of adding n-entries; this way the files are separated and the chances of losign all entries are reduced in case of a mistake or bug happens -- and also, for the use of Obsidian/RoamResearch each entry being a new note makes it possible to backlink with `[[]]`.
 
