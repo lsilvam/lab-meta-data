@@ -4,7 +4,7 @@
  GitHub: http://github.com/lsilvam
 version: 1.0
 created: 20200718
-last edit: 20200927
+last edit: 20201007
 
 title: "structure of a `.json` file to log cell culture actions"
 description: The present file strctures were designed to log actions done in cell culture, keep in mind 
@@ -79,7 +79,7 @@ links_to_experiment -> `experiment_name/ID` `none`
 
 mycoplasma_free -> # `yes` `no` `unknown`
 
-notes -> `contamination` `spontaneous_differentiation` `other_issue_see_notebook` `faulty_incubator` `accident` `problems_with_freezing`  `sent_to_collaborator`, `sent_to_cell_bank` `none`
+notes -> `contamination` `spontaneous_differentiation` `other_issue_see_notebook` `faulty_incubator` `accident` `problems_with_freezing`  `sent_to_collaborator`, `sent_to_cell_bank` `handover` `none`
 
 user -> initials of the name of the person that manipulated the cells
 
