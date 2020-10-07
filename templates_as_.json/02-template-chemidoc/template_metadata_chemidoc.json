@@ -1,0 +1,26 @@
+{  
+    "chemidoc_experiment01":[
+      {
+        "date": [""],
+        "application": [""],
+        "experiment_name": [""],
+        "experiment_replicate": [""],
+        "target-molecule" : [""],
+        "chemidoc_protocol" : [""],
+        "antibody_primary":[""],
+        "antibody_secondary":[""],
+        "antibody_primary_dilution:":[""],
+        "antibody_secondary_dilution":[""],
+        "blocking_solution": [""],
+        "nucleic_acid_stain": [""],
+        "run-voltage": [""],
+        "run-amperage": [""],
+        "run-duration": [""],
+        "lanes-content" : [""],
+        "ladders": [""],
+        "user": [""],
+        "comments":[""],
+        "raw_file_name": [""]       
+      }
+    ]
+ }
