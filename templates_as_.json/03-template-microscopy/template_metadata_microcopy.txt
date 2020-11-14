@@ -1,0 +1,32 @@
+{  
+    "Experiment1_n01":[
+        {
+        "date": [""],
+        "time": [""],
+        "microscope" : [""],
+        "aquisition_mode": [""],
+        "exposure_GainMaster": [""],
+        "light_intensity": [""],
+        "objective":[""],
+        "zoom":[""],
+        "frame_dim": [""],
+        "links_to_experiment":[""],
+        "target": [""],
+        "fluorophores": [""],
+        "antibody_primary_ref":[""],
+        "antibody_secondary_ref":[""],
+        "antibody_primary_dilution":[""], 
+        "antibody_secondary_dilution":[""],
+        "blocking_solution": [""],
+        "antibody_solution": [""],
+        "slide_id" : [""],
+        "biological_group": [""],
+        "raw_files-comment_zStackYN": [
+            "foo-foo-foo"
+        ],
+        "notes" : [""],
+        "user" : [""],
+        "microscope_issues": [""]
+        }
+    ]  
+}
