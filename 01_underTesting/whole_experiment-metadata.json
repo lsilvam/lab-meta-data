@@ -1,0 +1,39 @@
+{
+    "header": {
+        "@authors": "", 
+        "@affilitation": "",
+        "@institution": "",
+        "author-contact": ""
+    },
+    "experiment": {
+        "background": "",
+        "summary": "", 
+        "methods": "",
+        "context": "",
+        "observations": "", 
+        "limitations": ""
+    },
+    "experiment-details": {
+        "material-and-reagents": "",
+        "exclusion-criteria":"",
+        "model":"",
+        "cell-line": "",
+        "script_code": "", 
+        "anything-else": "..."
+    },
+    "data-overview": 
+        [{
+            "label": "",
+            "name-file-dataset": "",
+            "file-extension": "",
+            "repository": "",
+            "DOI": ""
+        }],
+    "footer": {
+        "funding": "",
+        "acknowledgements": "",
+        "date-submitted":"",
+        "date-updated":"",
+        "publication-DOI": ""
+    }
+}
