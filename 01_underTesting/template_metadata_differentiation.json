@@ -1,0 +1,17 @@
+{  
+  "differentiation-0x1":
+     {
+      "day-0" : ["[[]]"],
+      "day-2" : ["[[]]"],
+      "day-4" : ["[[]]"],
+      "day-5" : ["[[]]"],
+      "day-8" : ["[[]]"],
+      "day-10" : ["[[]]"],
+      "day-12" : ["[[]]"],
+      "beating-ebs" : ["yes/no"],
+      "diff_efficiency" : [NA],
+      "mother-culture": [""],
+      "experiment": [""],
+      "notes":[""]
+    }
+ }
