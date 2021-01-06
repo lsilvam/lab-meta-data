@@ -12,7 +12,7 @@
         "antibody_primary_dilution:":[""],
         "antibody_secondary_dilution":[""],
         "blocking_solution": [""],
-        "nucleic_acid_stain": [""],
+        "stain": [""],
         "run-voltage": [""],
         "run-amperage": [""],
         "run-duration": [""],
