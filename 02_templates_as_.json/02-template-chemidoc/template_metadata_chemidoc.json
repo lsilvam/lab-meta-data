@@ -1,26 +1,30 @@
 {  
-    "chemidoc_experiment01":[
+    "chemidoc_(experiment01)":[
       {
         "date": [""],
         "application": [""],
+        "chemidoc_protocol" : [""],
         "experiment_name": [""],
         "experiment_replicate": [""],
-        "target-molecule" : [""],
-        "chemidoc_protocol" : [""],
-        "antibody_primary":[""],
-        "antibody_secondary":[""],
-        "antibody_primary_dilution:":[""],
-        "antibody_secondary_dilution":[""],
-        "blocking_solution": [""],
+        "target_molecule" : [""],
         "stain": [""],
-        "run-voltage": [""],
-        "run-amperage": [""],
-        "run-duration": [""],
-        "lanes-content" : [""],
+        "run_duration": [],
+        "run_voltage": [],
+        "run_amperage": [],
+        "lanes_content" : [],
         "ladders": [""],
-        "user": [""],
+        "blocking_solution": [""],
+        "antibody_solution": [""],
+        "antibody_primary":[],
+        "antibody_secondary":[],
+        "antibody_primary_dilution:":[],
+        "antibody_secondary_dilution":[],
+        "raw_file_name_blot": [""],
+        "raw_file_name_colorimetric": [""],
+        "raw_file_name_loading_control": [""],
+        "raw_file_name_coomassie": [""],     
         "comments":[""],
-        "raw_file_name": [""]       
+        "user": [""]
       }
     ]
  }

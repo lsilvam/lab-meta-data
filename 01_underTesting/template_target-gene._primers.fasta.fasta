@@ -1,10 +1,17 @@
 > target-fw
 
+
 > target-rv
+
+
+> target-fw-reverse_complement
+
 
 > target-rv-reverse_complement
 
+
 > PCR_products
 
-> genomic region
+
+> {genomic region}
 
