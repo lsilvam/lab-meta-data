@@ -19,6 +19,7 @@
         "antibody_secondary":[],
         "antibody_primary_dilution:":[],
         "antibody_secondary_dilution":[],
+        "raw_file_name_gel": [""],
         "raw_file_name_blot": [""],
         "raw_file_name_colorimetric": [""],
         "raw_file_name_loading_control": [""],
