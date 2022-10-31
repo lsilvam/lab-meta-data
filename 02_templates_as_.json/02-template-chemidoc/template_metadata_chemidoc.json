@@ -3,15 +3,19 @@
       {
         "date": [""],
         "application": [""],
-        "chemidoc_protocol" : [""],
+        "imager_protocol" : [""],
         "experiment_name": [""],
         "experiment_replicate": [""],
+        "gel_percentage": [],
         "target_molecule" : [""],
-        "stain": [""],
+        "stain_labeling": [""],
         "run_duration": [],
         "run_voltage": [],
         "run_amperage": [],
-        "lanes_content" : [],
+        "lanes_content" : [
+          "01_lane",
+          "02_lane"
+        ],
         "ladders": [""],
         "blocking_solution": [""],
         "antibody_solution": [""],
@@ -22,8 +26,7 @@
         "raw_file_name_gel": [""],
         "raw_file_name_blot": [""],
         "raw_file_name_colorimetric": [""],
-        "raw_file_name_loading_control": [""],
-        "raw_file_name_coomassie": [""],     
+        "raw_file_name_loading_control": [""], 
         "comments":[""],
         "user": [""]
       }
