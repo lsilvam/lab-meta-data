@@ -25,7 +25,7 @@ More about the background on using `.json` files [here](02_templates_as_.json/00
 
 Jump to:
 - [cell culture](02_templates_as_.json/01-template-cell_culture/00README-metadata_cell_culture.md)
-- [gel imager]() 
+- [gel imager](02_templates_as_.json/02-template-chemidoc/00README-metadata_chemidoc.md) 
 
 # disclaimer
 These are files that I created to help me keeping my information organized, and sharable with future me. Most likely there is a betterr way to do this. Anyway if you find them useful feel free to used/edit them.

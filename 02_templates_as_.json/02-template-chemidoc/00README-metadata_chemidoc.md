@@ -27,31 +27,56 @@ patern text keys:
 
 ## Example of possible inputs on how to insert data
 
-date -> `YYYYMMDD`
+date -> `YYYYMMDD` 
+
 application -> `nucleic_acids` `protein_gels` `blots` `...`
+
 imager_protocol -> `protocal_name` `...`
+
 experiment_name -> `???` `...`
+
 experiment_replicate -> `##` number of the replicate
+
 gel_percentage -> `##` `##00##` `null` given as % (percentage) of the gel e.g. `12` or if it has gradient `40012`
+
 target_molecule -> `DNA` `RNA` `total_protein` `...` or target protein e.g. `p53`
+
 stain_labeling -> `GreenSafe` `SafeRed` `Coomassie` `PounceauS` `HRP` `...`
+
 run_duration -> `###` `null` expressed in minutes (min) 
+
 run_voltage -> `###` `null` expressed in Voltage (V)
+
 run_amperage -> `###` `null` expressed in Ampere (A)
+
 lanes_content -> `???` free text
+
 ladders -> label of the ladder used `Brand$product_name` `...` `none` e.g. `ThermoFisher$PageRuler` 
+
 blocking_solution -> `##%_blokingAgent_buffer_detergent_##%"` `...` `none` e.g `5%_milk_TBS_Tween_0.1%"`
+
 antibody_solution -> `##%_blokingAgent_buffer_detergent_##%"` `...` `none`
+
 antibody_primary -> `brand$reference` `...` `none`
+
 antibody_secondary -> `brand$reference` `...` `none`
+
 antibody_primary_dilution -> `####` `null` consider diluted 1-to-x e.g `1000` or 1:1000
+
 antibody_secondary_dilution -> `####` `null` consider diluted 1-to-x e.g `500` or 1:500
+
 raw_file_name_gel -> `???`, `none`
+
 raw_file_name_blot -> `???`, `none`
+
 raw_file_name_colorimetric -> `???`, `none`
+
 raw_file_name_loading_control -> `???`, `none`
+
 raw_file_name_coomassie -> `???`, `none`    
+
 comments -> free writing `???`, `none`
+
 user -> `???` initials of the name of the person that manipulated the cells
 
 ## examples
