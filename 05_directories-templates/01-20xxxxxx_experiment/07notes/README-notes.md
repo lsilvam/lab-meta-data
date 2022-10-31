@@ -5,10 +5,11 @@ last edit: 20202020
 ----
 
 # experiment
+
 experiment-name: ""
 
 ## notes
 
-    - a note
-        - file
-    ...
+- a note
+    - file
+...
