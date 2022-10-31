@@ -7,7 +7,7 @@ More information about each one in the respective folder.
 
 Everytime that is required create a `json` file in the folder of the experiment, and then populate it  with the relevant information.
 The idea of using `.json` is that it makes it easier to edit a `.json` file in a simple text editor compared to a table, mostly 
-when there are different obervations for the same sample the focus in taking notes in the lab can be in the observation and not 
+when there are different obervations for the same sample the focus in taking tag_notes in the lab can be in the observation and not 
 in repeating the sample name over and over. Lastly, `.json` files can be easily edited in in small vertical windows without breaking its
 structure. 
 
@@ -20,6 +20,8 @@ Naming files:
       1. this way the files would maintain there order
    3. when applied each replicate is numbered `n01 ... n03`
       1. if all replicates are inside the file rename to something relatable to the experiment, for example `run01` for PCRs or `observation01` for microscopy 
+
+More about the background on using `.json` files [here](02_templates_as_.json/00-template-backbone/00README_json.md)
 
 # disclaimer
 These are files that I created to help me keeping my information organized, and sharable with future me. Most likely there is a betterr way to do this. Anyway if you find them useful feel free to used/edit them.

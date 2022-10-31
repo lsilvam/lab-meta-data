@@ -44,12 +44,12 @@ The workflow consisits in directory with 8 folders, each one with a purpose,  li
         figure or table presented
         - also include `.zip` of the raw data from more complex techniques like sequencing
 
-- ./notes
-    - this folder should contain any relevant notes taken during the experiment, and that includes:
+- ./tag_notes
+    - this folder should contain any relevant tag_notes taken during the experiment, and that includes:
         - pictures
         - scanned protocols
         - scanned labjournal
-    - the files should be log in the `README-notes.txt`
+    - the files should be log in the `README-tag_notes.txt`
 
 Other considerations:
 - everytime that is required 

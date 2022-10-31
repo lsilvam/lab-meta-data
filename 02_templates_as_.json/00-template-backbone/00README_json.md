@@ -28,7 +28,6 @@ In the following somplified example: for two different experiments replicates `0
     ]
 }
 ```
-
 ## what not to do
 
 Example of a paired experiment, that will not be a tiddy table -- this is an experiment with 2 observations (`time_point`) each with 2 measured variables  `var2` (*height*) and `var3` (*weight*). 

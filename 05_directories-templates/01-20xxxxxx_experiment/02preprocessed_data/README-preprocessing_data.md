@@ -9,7 +9,7 @@ experiment_name: ""
 path_original_files: ""
 path_edited_files: "" 
 
-## general notes
+## general tag_notes
 
 - 
 ...

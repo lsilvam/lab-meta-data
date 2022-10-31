@@ -19,7 +19,7 @@
             "treatment" : ["none"],
             "links_to_experiment" : [""],
             "mycoplasma_free" : ["unknown"],
-            "notes" : [""],
+            "tag_notes" : [""],
             "user" : ["L_Mendes-Silva"],
             "comments" : [""],
             "picture_file_name": [""]
@@ -44,7 +44,7 @@
             "treatment" : ["none"],
             "links_to_experiment" : [""],
             "mycoplasma_free" : ["unknown"],
-            "notes" : [""],
+            "tag_notes" : [""],
             "user" : ["L_Mendes-Silva"],
             "comments" : [""],
             "picture_file_name": [""]

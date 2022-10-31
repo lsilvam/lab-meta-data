@@ -24,7 +24,7 @@
         "raw_files-comment_zStackYN": [
             "foo-foo-foo"
         ],
-        "notes" : [""],
+        "tag_notes" : [""],
         "user" : [""],
         "microscope_issues": [""]
         }

@@ -19,7 +19,7 @@
             "treatment" : [""],
             "links_to_experiment" : [""],
             "mycoplasma_free" : [""],
-            "notes" : [""],
+            "tag_notes" : [""],
             "user" : [""],
             "comments" : [""],
             "picture_file_name": [""]
