@@ -5,7 +5,7 @@
         "time": [""],
         "microscope" : [""],
         "aquisition_mode": [""],
-        "fluorophores-channels": [""],
+        "fluorophores_channels": [""],
         "exposure_GainMaster": [""],
         "light_intensity": [""],
         "objective":[""],
@@ -21,10 +21,11 @@
         "antibody_solution": [""],
         "slide_id" : [""],
         "biological_group": [""],
-        "raw_files-comment_zStackYN": [
+        "raw_files_comment_zStackYN": [
             "foo-foo-foo"
         ],
         "tag_notes" : [""],
+        "comments" : [""],
         "user" : [""],
         "microscope_issues": [""]
         }
