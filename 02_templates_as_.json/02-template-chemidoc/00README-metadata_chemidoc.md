@@ -11,7 +11,7 @@ last edit: 20221031
 
 ## description
 
-The present files shows the strucutre of the `.json` files designed to log images of gels or blots aquired in one imager (e.g. Chemidoc). To maintain things simple eeach image aquired for an experiment should have a meta file associated. Also, to keep the format as a standard below are shown the accepted fields and their respective possible values. 
+The present files shows the strucutre of the `.json` files designed to log images of gels or blots aquired in one imager (e.g. Chemidoc). To maintain things simple each image aquired for an experiment should have a meta file associated. Also, to keep the format as a standard below are shown the accepted fields and their respective possible values. 
 
 For sake of simplicity it was considered to use just one template for all the aquisitions type: agarose gels, SDS-PAGE, and blots. Therefore, to clarify what to consider for the electrophoresis run settings:
 - agarose gels: electrophoresis settings, only one options

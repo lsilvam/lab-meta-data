@@ -1,5 +1,5 @@
 {  
-    "Experiment1_n01":[
+    "Experiment1_n01_obs01":[
         {
         "date": [""],
         "time": [""],
