@@ -27,8 +27,8 @@ More about the background on using `.json` files [here](02_templates_as_.json/00
 Jump to:
 - [cell culture](02_templates_as_.json/01-template-cell_culture/00README-metadata_cell_culture.md)
 - [gel imager](02_templates_as_.json/02-template-chemidoc/00README-metadata_chemidoc.md) 
-- [microscopy](02_templates_as_.json/03-template-microscopy/00README-metadata_microscopy.txt)
-- [reagent](02_templates_as_.json/../)
+- [microscopy](02_templates_as_.json/03-template-microscopy/00README-metadata_microscopy.md))
+- [reagent and equipment](02_templates_as_.json/../)
 
 # disclaimer
 These are files that I created to help me maintain  my information organized and sharable with future me. Most likely there is a better way to do this. Anyway if you find them useful feel free to used/edit them.
