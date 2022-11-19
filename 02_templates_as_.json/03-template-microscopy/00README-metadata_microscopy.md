@@ -4,7 +4,7 @@
  GitHub: http://github.com/lsilvam
 version: 1.0
 created: 20201114
-last edit: 20221115
+last edit: 20221119
 ---
 
 # structure of a `.json` file for microscopy files
