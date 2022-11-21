@@ -4,21 +4,19 @@ ORC-ID: https://orcid.org/0000-0002-5989-637X
 GitHub: http://github.com/lsilvam
 version: 1.01
 created: 20201007
-last edit: 20221031
+last edit: 202211121
 ---
 
 # structure of a `.json` file to imager files
 
 ## description
 
-The present files shows the strucutre of the `.json` files designed to log images of gels or blots aquired in one imager (e.g. Chemidoc). To maintain things simple each image aquired for an experiment should have a meta file associated. Also, to keep the format as a standard below are shown the accepted fields and their respective possible values. 
+The present file shows the strucutre of the `.json` files designed to log images of gels or blots aquired in one imager (e.g. Chemidoc). To maintain things simple  images aquired for an experiment should have a meta file associated; *i.e.*, for example, for quality control after western blot transfer SDS-PAGE and total protein images. Also, to keep the format as a standard below are shown the accepted fields and their respective possible values. 
 
 For sake of simplicity it was considered to use just one template for all the aquisitions type: agarose gels, SDS-PAGE, and blots. Therefore, to clarify what to consider for the electrophoresis run settings:
-- agarose gels: electrophoresis settings, only one options
+- agarose gels: electrophoresis settings, only one option
 - blots: transfer electrophoresis settings 
-
-Although, there is just one file for all the possible application there it is of course  to break this temples into 3 new templates for each application, but at the time it was not deemed necessary.
-
+Although, there is just one file for all the possible aquisition modes it is of course possible to break this templates into three new templates for each aquisition mode, but at the time it was not deemed necessary.
 
 patern text keys: 
     `?` -> means characters
@@ -35,7 +33,7 @@ imager_protocol -> `protocal_name` `...`
 
 experiment_name -> `???` `...`
 
-experiment_replicate -> `##` number of the replicate
+experiment_replicate -> `##` number of the experiment replicate
 
 gel_percentage -> `##` `##00##` `null` given as % (percentage) of the gel e.g. `12` or if it has gradient `40012`
 
@@ -122,3 +120,4 @@ user -> `???` initials of the name of the person that manipulated the cells
 version edit logs:
 v1.0 -- created blank
 v1.01 -- edited to add material, remove line of " raw_file_name_coomassie" because it adds redundancy
+v1.02 -- review and typos

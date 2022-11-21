@@ -4,15 +4,15 @@ ORC-ID: https://orcid.org/0000-0002-5989-637X
 GitHub: http://github.com/lsilvam
 version: 1.01
 created: 20200718
-last edit:: 20221031
+last edit:: 20221121
 ---
 
 # structure of a `.json` file to log cell culture actions
 
 ## description
 
-The present files shows the strucutre of the `.json` files designed to log actions done in cell culture. To maintain things simple keep in mind that every entry should be considered as an action executed on a given culture. Also, to keep the format as a standard below are shown the accepted fields and their respective possible values. 
-Each time there is a passage it is advised to create a new file for a given culture, instead of adding n-entries; this way the files are separated and the chances of losign all entries are reduced in case of a mistake or bug happens -- and also, for the use of Obsidian/RoamResearch each entry being a new note makes it possible to backlink with `[[foo]]`.
+The present files shows the strucutre of the `.json` files designed to log actions done in cell culture. To maintain things simple keep in mind that every entry should be considered as an action executed on a given culture. Also, to keep the format as a standard, below are shown the accepted fields and their respective possible values. 
+Each time there is a passage it is advised to create a new file for a given culture, instead of adding n-entries; this way the files are separated and the chances of losing all records are reduced in case of a mistake or bug happens -- and also, for the use of Obsidian/RoamResearch each entry being a new note makes it possible to backlink with `[[foo]]`.
 Hope that with this it would be easier to track problems, or good results. 
 
 ## guidelines
@@ -24,19 +24,19 @@ When a field has no data to add, or it is unknown use null e.g passage:`[null]`,
 
 ### date
 
-Never leave a data field without entry -- if the date of the original vial(s) is not known use either the **last recorded date** or the **date of thawing** or use an **aproximated date**, but take not of that in the comments. 
+Never leave a data field without entry -- if the date of the original vial(s) is not known use either the **last recorded date** or the **date of thawing** or use an **aproximated date**, but take note of that in the comments. 
 
-### NA and nones
+### NA and nones and null
 
 Since each field can take different values, *i.e* some fields take numbers while other takes text (or strings) it is better to avoid leaving fields in black; either use the appropriate notation `null` or `none`: `null` for fields that are numbers or `none` for other fields. For example:
-- A `passage` is `null`, because the input must be a number
-- A `links_to_experiment` is `none`, because the name of the experiment is not fixed
+- A `passage` is `null`, because the input must be an integer
+- A `links_to_experiment` is `none`, because the name of the experiment is a string or an integer
 - A `treatment` in `none`, because the number of posibilities are fixed but have multiple options
 
 
 ### lab stage
 
-In `lab_stage` the entry `culture` means that either the medium was changed or that the cells are comming from a passage (which will be distinguishable from medium change because the `dissociation agent` will be filled, as well as the ID will have to change to consider the passage number increase).
+In `lab_stage` the entry `culture` means that either the medium was changed or that the cells are comming from a passage (which will be distinguishable from medium change because the `dissociation agent` will be filled, as well as the ID will have to change to consider the increased passage number).
 When recording a `passage` the fields of `confluency`, `cell_count` and `viability` refer to the mother culture that is  `ID_mother`.
 
 ### special cases
@@ -99,7 +99,7 @@ picture_filepicture_file_name_name -> if relevant add the name of a file `file_n
 ## examples
 ### one entry 
 
-When a culture is only being maintained with few to none intermediate interventions (for example, medium changes)
+Example of a culture that is  only being maintained with few to none intermediate interventions (for example, medium changes)
 
 ```json
 {
@@ -131,9 +131,8 @@ When a culture is only being maintained with few to none intermediate interventi
 ```
 ### two entries for same culture
 
-Example for cell culture structure for n-entries for the same flask/culture  
-
-Below when you want to prepare for an experiment (for example, after a passage the culture might need an antibiotic selection)
+Example for cell culture structure for n-entries for the same flask/culture.
+When you want to prepare for an experiment (for example, after a passage the culture might need an antibiotic selection)
 
 ```json
 {
@@ -194,3 +193,4 @@ Below when you want to prepare for an experiment (for example, after a passage t
 version edit logs:
 V1.0 -- the examples shown here come from routine tasks in the **Stem Cell Biology Lab** @ Universidade do Algarve -- Centre for Biomedical Research
 V1.01 -- review text, replace `NA` for `null`
+V1.02 -- typos
