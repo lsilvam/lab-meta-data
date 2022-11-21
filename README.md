@@ -23,7 +23,7 @@ More about the background on using `.json` files [here](02_templates_as_.json/00
 
 Jump to:
 - [cell culture](02_templates_as_.json/01-template-cell_culture/00README-metadata_cell_culture.md)
-- [gel imager](02_templates_as_.json/02-template-chemidoc/00README-metadata_chemidoc.md) 
+- [gel and blots imager](02_templates_as_.json/02-template-chemidoc/00README-metadata_chemidoc.md) 
 - [microscopy](02_templates_as_.json/03-template-microscopy/00README-metadata_microscopy.md)
 - [reagent and equipment](02_templates_as_.json/04-template-lab_reagent_and_equipment/00README-metadata_reagents_and_equipment.md)
 
