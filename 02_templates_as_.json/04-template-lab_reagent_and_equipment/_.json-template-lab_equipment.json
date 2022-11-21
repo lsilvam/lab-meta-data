@@ -3,7 +3,7 @@
      {
       "manufacturer" : [""],
       "model" : [""],
-      "lot" : [""],
+      "SN_or_ID" : [""],
       "tag_notes":[""]
     }
- }
+}
