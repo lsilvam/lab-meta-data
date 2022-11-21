@@ -2,7 +2,7 @@
 author: Leonardo Mendes-Silva
 ORC-ID: https://orcid.org/0000-0002-5989-637X
 GitHub: http://github.com/lsilvam
-version: 1.01
+version: 1.02
 created: 20201007
 last edit: 202211121
 ---
