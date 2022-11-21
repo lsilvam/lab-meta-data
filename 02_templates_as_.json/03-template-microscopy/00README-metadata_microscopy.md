@@ -4,7 +4,7 @@
  GitHub: http://github.com/lsilvam
 version: 1.0
 created: 20201114
-last edit: 20221119
+last edit: 20221121
 ---
 
 # structure of a `.json` file for microscopy files
@@ -13,13 +13,13 @@ last edit: 20221119
 
 The present files shows the strucutre of the `.json` files designed to log experiment data of images aquired using a microscope.To maintain things simple consider images aquired during a microspcopy session to be in just one file. Also, to keep the format as a standard below are shown the accepted fields and their respective possible values. 
 
- For sake of simplicity it was considered that images from the same sample (same slide area) should be save in the same object, and to identify the slide area there is the variable `slide_id`. 
+ For sake of simplicity it was considered that images from the same sample (same slide area) should be saved in the same object, and to identify the slide area there is the variable `slide_id`. 
  For example, one slide can have two cover slips each with one sample for the control and another for the treated. In this case the metadata file would have two objects for each cover slip that correspond to each treatement.
 
- To take note of the filename for each image follow the pattern `outputFile-thisIsaComment-StackYesOrNo`. The idea is that by doing this it is easier to take note when we are at the microscope aquiring images, and the `-` allows for easy slip should we need to make a table with this data. Thus, for each image, since most softawares by deafault save continuos numbering in the files the `outpuFile` usually is something like `foo03...foo10`. Then in `thisIsaComment` is intended to give a comment on the image aquired. For example, I usually write the size of the colony. Lastly, the `StackYesorNo` is to mention if the file is a stack of images. 
+ To take note of the filename for each image follow the pattern `outputFile-thisIsaComment-StackYesOrNo`. The idea is that by doing this it is easier to take note when we are at the microscope aquiring images, and the `-` allows for easy split should we need to make a table with this data. Thus, for each image, since most softwares by deafault save continuos numbering in the files the `outpuFile` usually is something like `foo03...foo10`. Then in `thisIsaComment` is intended to give a comment on the image aquired. For example, I usually write the size of the colony. Lastly, the `StackYesorNo` is to mention if the file is a stack of images. 
  - side note: this last item could be replace with other possible ways of aquiring images. For example, it could be: Snap, Stack, Tile, Projection, etc. But since for my use case I only used stacks, it was simpler.
 
-The ideia is that the file can be prepared in advance of the microscopy session, so that only the `raw_files_comment_zStackYN` needs to be filled--mostly to save time and to avoid forgetting important aquisitions. 
+The ideia of this metadata files is that the file can be prepared in advance of the microscopy session, so that only the `raw_files_comment_zStackYN` needs to be filled---mostly to save time and to avoid forgetting important aquisitions. 
 
 patern text keys: 
     `?` -> means characters
@@ -156,3 +156,4 @@ microscope_issues -> free writing `???` log detected issues during aquisition
 ---
 version edit logs:
 v1.0 --- first edit
+v1.01 --- review and typos
